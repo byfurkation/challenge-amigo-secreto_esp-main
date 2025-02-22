@@ -31,16 +31,20 @@ function actualizarListaAmigos() {
     }
 }
 
+//función para seleccionar un amigo de la lista al azar
+
+function sortearAmigo() {
+    if (amigos.length < 1 ) {  //validamos que la lista de amigos no esté vacía
+        alert("No hay amigos en la lista");
+        return;
+    } else {
+        const amigoSeleccionado = amigos[Math.floor(Math.random() * amigos.length)];
+        document.getElementById('resultado').innerHTML = amigoSeleccionado;
+    }
+}
 
 
 /*
-//función para seleccionar un amigo de la lista al azar
-function seleccionarAmigo() {
-    let amigoSeleccionado = ListaAmigos[Math.floor(Math.random() * ListaAmigos.length)];
-    document.getElementById('amigoSeleccionado').textContent = amigoSeleccionado;
-}
-   
-
  
     //validamos que el número de amigos no sea mayor al número máximo
     if (amigos.length >= numeroMaximo) {
