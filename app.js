@@ -39,36 +39,6 @@ function sortearAmigo() {
         return;
     } else {
         const amigoSeleccionado = amigos[Math.floor(Math.random() * amigos.length)];
-        document.getElementById('resultado').innerHTML = amigoSeleccionado;
+        document.getElementById('resultado').innerHTML = `Amigo secreto: ${amigoSeleccionado}`;
     }
 }
-
-
-/*
- 
-    //validamos que el número de amigos no sea mayor al número máximo
-    if (amigos.length >= numeroMaximo) {
-        alert("No puedes agregar más amigos");
-        return;
-    }
-
-    //validamos que el amigo no esté en la lista
-    if (amigos.includes(nombre)) {
-        alert("El amigo ya está en la lista");
-        return;
-    }
-
-
-    //actualizamos la lista de amigos en la interfaz
-    actualizarListaAmigos();
-}
-//función para actualizar la lista de amigos en la interfaz
-
-
-
-//función para seleccionar un amigo de la lista al azar
-
-//Condiciones iniciales
-function condicionesIniciales()
-
-*/
