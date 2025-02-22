@@ -17,6 +17,7 @@ function agregarAmigo() {
         console.log(typeof(amigo)); //imprimimos el tipo de dato de amigo
         console.log(amigos.length); //imprimimos la longitud de la lista de amigos
     }
+    actualizarListaAmigos(); //actualizamos la lista de amigos en la interfaz
 }
 
 // función para actualizar la lista de amigos en la interfaz
