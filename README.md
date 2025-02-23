@@ -4,45 +4,31 @@
 
 <img alt="Static Badge" src="https://img.shields.io/badge/Oracle-%20Alura-blue?style=flat&labelColor=red"> <img alt="Static Badge" src="https://img.shields.io/badge/Released_Date-February%202025-blue?style=plastic&labelColor=white">
 
-##Índice
+## Indice  
 
-*[Título e imagen de portada](#Título-e-imagen-de-portada)
+- [Descripción del proyecto](#descripción-del-proyecto)
 
-*[Insignias](#insignias)
+- [Estado del proyecto](#estado-del-proyecto)
 
-*[Índice](#índice)
+- [Demostración de funciones](#demostración-de-funciones)
 
-*[Descripción del proyecto](#descripción-del-proyecto)
+- [Acceso al proyecto](#acceso-al-proyecto)
 
-*[Estado del proyecto](#Estado-del-proyecto)
+- [Tecnologías utilizadas](#tecnologías-utilizadas)
 
-*[Características de la aplicación y demostración](#Características-de-la-aplicación-y-demostración)
+- [Autor](#autor)
 
-*[Acceso al proyecto](#acceso-proyecto)
-
-*[Tecnologías utilizadas](#tecnologías-utilizadas)
-
-*[Personas Contribuyentes](#personas-contribuyentes)
-
-*[Personas-Desarrolladores del Proyecto](#personas-desarrolladores)
-
-* [Licencia](#licencia)
-
-*[Conclusión](#conclusión)
-
-
-<h1 align="center"> Descripción del Proyecto </h1> 
+## Descripción del proyecto
 Proyecto concluido, el cual consiste en la implementación del juego de nombre “Amigo Secreto” desarrollado en el lenguaje de programación llamado JavaScript. 
 
 El objetivo del juego es ingresar nombres de amigos en una caja de la interfaz, esto mediante la captura por teclado del nombre y el clic en el botón de nombre "Añadir". El usuario podrá visualizar el nombre de los amigos ingresados debajo de la la caja de texto en la cual los está capturando. Una vez que el usuario ha introducido los nombres que considera pertinentes, procede a sortear aleatoriamente uno de los mismos mediante el clic en el botón “Sortear Amigo”. Enseguida debajo de la lista aparecerá el nombre del amigo sorteado. 
 ![11  muestra de funcionamiento](https://github.com/user-attachments/assets/fef9431a-73ba-4936-aaed-99eab257738a)
 
-<h1 align="center"> Estado del proyecto </h1> 
+## Estado del proyecto
 El proyecto cumple con los requisitos básicos, sin embargo, es susceptible de que se le puedan agregar diversas funcionalidades. Tu imaginación es el límite. 
 
-<h1 align="center"> Demostración de funciones y aplicaciones </h1> 
+## Demostración de funciones
 
-## :hammer:Funcionalidades del proyecto
 1️⃣ - `Función para agregar amigos`: Se inicia declarando una variable let de tipo array llamada amigos, la cual almacenará los nombres de los amigos ingresados.
 
 A continuación, `se desarrolla una función llamada agregarAmigo`, que permita al usuario ingresar un nombre en el campo de texto y añadirlo a la lista de amigos creada anteriormente. Dichos nombres serán agregados capturando el valor del campo de entrada, el cual Utilizó "document.getElementById" para obtener el texto ingresado por el usuario. 
@@ -88,8 +74,8 @@ Gracias`Se genera un índice aleatorio`, usando Math.random() y Math.floor() par
 
 ![9  juego funcionando](https://github.com/user-attachments/assets/71967555-6449-47c2-9d87-0789718f2bfe)
 
-<h1 align="center"> Acceso al proyecto </h1> 
-📁 Acceso al proyecto
+## Acceso al proyecto
+ 
 Para ingresar el repositorio del proyecto del juego “Amigo Secreto”, se puede acceder a través de cualquier navegador web con el siguiente link: https://github.com/byfurkation/challenge-amigo-secreto_esp-main.git. 
 
 ![10  repositorio link](https://github.com/user-attachments/assets/9154aea6-41a7-4f9c-8b3d-cec676c0ee4d)
@@ -100,16 +86,13 @@ En caso de querer descargar el el proyecto, existen diversas opciones a las cual
 
 Para descargarlo y utilizarlo se puede utilizar el método clone mediante la línea de comando, abriéndolo con github deskopt o descargandolo en un archivo zip, cualquiera de las tres están en la lista mencionada anteriormente. 
 
-<h1 align="center"> Tecnologías utilizadas </h1> 
-- javascript.
-- github, manejo de repositorio mediante la línea de comandos. 
-- Archivo mark Down.
+## Tecnologías utilizadas
+* JavaScript.
+* Github, manejo de repositorio mediante la línea de comandos. 
+* Archivo mark Down.
 
-<h1 align="center"> Desarrollador del Proyecto </h1> 
+## Autor
 
-| [<img src="https://https://avatars.githubusercontent.com/u/194540551?s=400&u=592c64b1345758166e82cd056657f33d5c9a1be0&v=4" width=115><br><sub>Camila Fernanda Alves</sub>](https://github.com/camilafernanda) |  [<img src="https://avatars.githubusercontent.com/u/71970858?v=4" width=115><br><sub>Ellen Pimentel</sub>]([https://github.com/guilhermeonrails](https://github.com/ellenpimentel)) |  [<img src="https://avatars.githubusercontent.com/u/91544872?v=4" width=115><br><sub>Génesys Rondón</sub>](https://github.com/genesysaluralatam) |
-| :---: | :---: | :---: |
+| [<img src="https://avatars.githubusercontent.com/u/194540551?s=200" width=115><br><sub>Christian Carvajal</sub>](https://github.com/byfurkation) |
+| :---: |
 
-
-
-<h1 align="center"> Licencia </h1> 
