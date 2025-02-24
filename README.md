@@ -12,6 +12,8 @@
 
 - [Demostración de funciones](#demostración-de-funciones)
 
+-[Anexo](#anexo). 
+
 - [Acceso al proyecto](#acceso-al-proyecto)
 
 - [Tecnologías utilizadas](#tecnologías-utilizadas)
@@ -74,6 +76,33 @@ Gracias`Se genera un índice aleatorio`, usando Math.random() y Math.floor() par
 
 ![9  juego funcionando](https://github.com/user-attachments/assets/71967555-6449-47c2-9d87-0789718f2bfe)
 
+## Anexo
+Como anexo, se agregan las capturas de pantalla del manejo de github por línea de comandos, para guardar cambios en el repositorio de manera remota, lo cual también forma parte del proyecto. 
+
+A continuación se muestra una imagen de la actualización del repositorio en github, una vez que se enlaza remotamente con nuestra carpeta que tenemos localmente.
+
+![10  repositorio actualizado](https://github.com/user-attachments/assets/04f152fc-466e-4dd3-a7d2-bf684751cd74)
+
+En la siguiente imagen se puede observar el commit que se realiza justo después de agregar la función de "actualizarAmigos" dentro de la función "agregarAmigos", así como su respectivo Push para mandarlo al repositorio. 
+
+![git](https://github.com/user-attachments/assets/6dbf601b-5a59-4cd3-b3a9-9338bebdeb51)
+
+De igual manera se anexa de manera parcial el histórico de los commits relacionados con el archivo app.js.
+
+![11  commits appj](https://github.com/user-attachments/assets/86f90216-a9db-4f22-9e08-c0f61b38fe34)
+
+En la siguiente imagen se puede observar el commit que se realiza justo después de agregar la función "sortearAmigo" , así como su respectivo Push para mandarlo al repositorio.
+
+![9  push sortear amigo](https://github.com/user-attachments/assets/4a94edf8-356b-4d79-ae13-4422c2f8f800)
+
+Cabe señalar que el archivo README fue editado directamente desde la página de github, y los commits se realizaron directamente desde esta página, tal como se muestra en la siguiente imagen, donde el botón verde con la leyenda "commit changes...", en la parte superior derecha de la imagen, nos ayuda a guardar el cambio en el archivo.
+
+![12  commits readme](https://github.com/user-attachments/assets/c01088de-9409-49e4-bd96-dc084014d4eb)
+
+Posterior a esta acción se le agrega a cada commit un mensaje que indique el cambio que fue realizado, lo cual se puede hacer de manera breve o de manera explicativa en una caja de texto que se encuentra debajo, para finalmente presionar el botón que se encuentra del lado inferior derecho, con la leyenda "commit changes". 
+
+![13 update anexo](https://github.com/user-attachments/assets/66d3f1ef-3088-4300-bd7c-349985b79703)
+
 ## Acceso al proyecto
  
 Para ingresar el repositorio del proyecto del juego “Amigo Secreto”, se puede acceder a través de cualquier navegador web con el siguiente link: https://github.com/byfurkation/challenge-amigo-secreto_esp-main.git. 
@@ -88,8 +117,8 @@ Para descargarlo y utilizarlo se puede utilizar el método clone mediante la lí
 
 ## Tecnologías utilizadas
 * JavaScript.
-* Github, manejo de repositorio mediante la línea de comandos. 
 * Archivo mark Down.
+* Github, manejo de repositorio mediante la línea de comandos.
 
 ## Autor
 
